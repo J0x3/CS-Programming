@@ -1,0 +1,30 @@
+git clone (repo)
+git add . -A
+git commit -m "...."
+git push origin "branch"
+git pull origin "branch"
+git checkout -b "name of branch"
+
+
+ex.
+//make a copy of the repository
+git clone https://github.com/VCCCD-CS-V13/class-collaboration.git
+//make changes to files or whatever in folder
+//then use next command to add changes
+git add. -A
+//use next command to commit changes and add a message
+git commit -m "these are my changes or added file such and such"
+//then you have to use the push command to send the data back to the repository
+//the last word should be name of branch or master if none
+git push origin master
+
+//to create a branch you clone first
+//then checkout and give branch a name
+git checkout -b name-of-branch
+//save changes by pushing
+git push origin name-of-branch
+
+
+
+//then to pull new changes from repo, use pull command (opposite of push)
+git pull origin name-of-branch
