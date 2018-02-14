@@ -22,8 +22,9 @@ git push origin master
 //then checkout and give branch a name
 git checkout -b name-of-branch
 //save changes by pushing
+git add . -A
+git commit -m "message here"
 git push origin name-of-branch
-
 
 
 //then to pull new changes from repo, use pull command (opposite of push)
